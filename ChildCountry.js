@@ -32,7 +32,7 @@ class ChildCountry extends Component {
             <div>
 
                 <input type="text" placeholder="Enter Country" value={this.state.country} onChange={this.HandleChange}></input>
-                {privilege && <button onClick={this.HandleSelect}>Add and Select</button>}
+                {privilege && <button onClick={this.HandleSelect}>Add and Select Chakra</button>}
             </div>
         )
     }
